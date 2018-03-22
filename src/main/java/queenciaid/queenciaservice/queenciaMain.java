@@ -6,11 +6,12 @@
 package queenciaid.queenciaservice;
 
 /**
- *
  * @author daniel
  */
+
 import java.sql.Connection;
 import java.sql.SQLException;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -21,11 +22,11 @@ public class queenciaMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws SQLException {
-         Connection conn;
-        
+        Connection conn;
+
         System.out.println("test");
         SpringApplication.run(queenciaMain.class, args);
 
     }
-    
+
 }
